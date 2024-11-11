@@ -6,7 +6,7 @@ name: {
     type: String,
     required: true,
     unique: true,
-},
-})
+}
+});
 
 module.exports = models.Tag || model('Tag', TagSchema)

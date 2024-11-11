@@ -25,7 +25,7 @@ Comments: [CommentSchema],
 // with type SchemaTypes.ObjectId and ref 'Tag'
 tags: [{
   type: SchemaTypes.ObjectId,
-ref: 'tag',
+ref: 'Tag',
 }],
 // Create a "slug" property with type String
 slug: {
