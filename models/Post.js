@@ -20,7 +20,7 @@ createdAt: {
 
 },
 // Create a "comments" property that is an array of CommentSchema (a subdocument)
-Comments: [CommentSchema],
+comments: [CommentSchema],
 // Create a "tags" property that is an array of objects
 // with type SchemaTypes.ObjectId and ref 'Tag'
 tags: [{

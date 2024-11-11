@@ -39,7 +39,7 @@ async function get(req, res) {
         year: 'numeric',
       })
       return comment
-    })
+    });
     res.render('view-post', { post, isLoggedIn: req.session.isLoggedIn })
   } catch (err) {
     res.status(500).send(err.message)
